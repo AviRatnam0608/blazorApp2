@@ -1,0 +1,20 @@
+@rendermode InteractiveServer
+
+<!-- First put the html bits -->
+
+<h1>i like blazor </h1>
+
+<button @onclick="clickFunction">Click me</button>
+<span>@currentValue</span>
+
+@code {
+    // The add the CS code bits here. They are part of a class so remember that.
+    // Put the variables at the top, just like in a class, then methods below that use those values.
+    private int currentValue = 0;
+
+    [Parameter]
+    public int var3 { get; set; } = 1;
+    public void clickFunction() {
+        currentValue+=var3;
+    }
+}
