@@ -77,3 +77,4 @@
 /Users/avinashratnam/Documents/blazorApp2/obj/Debug/net9.0/blazorApp2.pdb
 /Users/avinashratnam/Documents/blazorApp2/obj/Debug/net9.0/blazorApp2.genruntimeconfig.cache
 /Users/avinashratnam/Documents/blazorApp2/obj/Debug/net9.0/ref/blazorApp2.dll
+/Users/avinashratnam/Documents/blazorApp2/obj/Debug/net9.0/blazorApp2.sourcelink.json
