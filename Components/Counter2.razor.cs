@@ -6,7 +6,7 @@ namespace blazorApp2.Components {
         public int currentValue { get; set; } = 0;
         [Parameter]
         public int var3 { get; set;} = 1;
-        public string outputText { get; set; }
+        public string? outputText { get; set; }
         public bool showDivText { get; set; } = false;
         public string? resultText { get; set; }
 
