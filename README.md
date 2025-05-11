@@ -17,9 +17,9 @@ Blazor Fundamentals Tutorial Checklist
 - [x] Implement @onmouseover event handlers
 - [x] Implement @onkeydown event handlers
 - [ ] Implement @onfocus and @onblur event handlers
-- [ ] Practice one-way data binding
-- [ ] Practice two-way data binding using @bind
-- [ ] Execute code after data binding changes ￼
+- [x] Practice one-way data binding
+- [x] Practice two-way data binding using @bind
+- [x] Execute code after data binding changes ￼
 
 🎨 Render Modes
 
