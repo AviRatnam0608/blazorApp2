@@ -12,10 +12,10 @@ Blazor Fundamentals Tutorial Checklist
 
 ⚙️ Event Handling & Data Binding
 
-- [ ] Implement @onclick event handlers
-- [ ] Implement @oninput event handlers
-- [ ] Implement @onmouseover event handlers
-- [ ] Implement @onkeydown event handlers
+- [x] Implement @onclick event handlers
+- [x] Implement @oninput event handlers
+- [x] Implement @onmouseover event handlers
+- [x] Implement @onkeydown event handlers
 - [ ] Implement @onfocus and @onblur event handlers
 - [ ] Practice one-way data binding
 - [ ] Practice two-way data binding using @bind

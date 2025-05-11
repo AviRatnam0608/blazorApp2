@@ -1,5 +1,31 @@
 @rendermode InteractiveServer
 
 <h1>i like blazor </h1>
-<button @onclick="clickFunction">Click me</button>
-<span>@currentValue</span>
+<div>
+    <button @onclick="clickFunction">Click me</button>
+    <span>@currentValue</span>
+</div>
+
+<div>
+    <input type="text" @oninput="HandleInput" /> <!-- One way bind -->
+    <p>@outputText</p>
+</div>
+
+<div>
+    <span> Using bind </span>
+    <!-- bind:-- Two way bind; i/o: outputText,5px when user changes value,5px outputText updated -->
+    <!-- bind:event -- overriding the default onChange event -->
+    <!-- bind:after -- once outputText is updated,-- this event is fired -->
+
+    <input type="text" @bind="outputText" @bind:event="oninput" @bind:after="SearchResult"/> <!-- Two way bind + specifying the bind event type -->
+    <p>@outputText</p>
+    <p>@resultText</p>
+</div>
+
+<div style="border: 5px solid;" @onmouseover="MouseOver" >
+    @if (!showDivText) { 
+        <p>@outputText</p>
+    } else {
+        <p> no text</p>
+    }
+</div>
